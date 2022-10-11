@@ -16,5 +16,17 @@ Halaman utama dari aplikasi sibatri merupakan _dashboard_ yang difokuskan untuk 
 
 Pada proses perekaman data akuisisi, terdapat beberapa pengaturan/konfigurasi masukan umpan data yang sangat penting untuk diperhatikan dan dipenuhi. Konfigurasi data yang dapat diterima oleh aplikasi sibatri sangat spesifik sehingga jika pengaturan umpan data yang diterima oleh aplikasi ini tidak sesuai maka aplikasi tidak mampu menerima dan mengolah data untuk dapat direkam dan disimpan. Di antara beberapa konfigurasi data tersebut, antara lain:
 
- #### 1. Umpan Data Merupakan Data Serial Yang Tersusun Atas Enam Variabel
-Data serial yang diumpankan pada aplikasi sibatri merupakan data serial yang tersusun atas enam variabel. Variabel-variabel ini merupakan variabel yang nantinya dapat digunakan dalam fitur lain yang mencakup proses survei batimetri, seperti pengolahan data untuk menghasilkan peta batimetri ataupun pengolahan data dalam menampilkan jalur survei batimetri.
+#### 1. Umpan Data Merupakan Data Serial Yang Tersusun Dari Integrasi Data Perangkat _Single Beam Echo Sounder_ (SBES) dan _Global Positioning System_ (GPS).
+Data serial yang diumpankan pada aplikasi sibatri merupakan data serial yang tersusun dari integrasi data perangkat  _Single Beam Echo Sounder_ (SBES) dan _Global Positioning System_ (GPS). Data serial ini merupakan data yang berisikan ariabel-variabel yang nantinya dapat digunakan dalam fitur lain yang mencakup proses survei batimetri, seperti pengolahan data untuk menghasilkan peta batimetri ataupun pengolahan data dalam menampilkan jalur survei batimetri.
+
+#### 2. Susunan Variabel Data Serial
+Susunan variabel data serial yang diumpankan pada aplikasi sistem survei batimetri diatur secara khusus dan spesifik dengan urutaan sebagai berikut:
+1. Variabel waktu --> Tipe data string
+2. Variabel kedalaman --> Tipe data desimal (_float_)
+3. Variabel temperatur --> Tipe data desimal (_float_)
+4. Variabel jumlah satelit --> Tipe data bilangan bulat (_integer_)
+5. Variabel garis lintang --> Tipe data desimal (_float_)
+6. Variabel garis bujut --> Tipe data desimal (_float_)
+
+#### 3. Setiap Variabel Dipisahkan Tanda Koma (,)
+
