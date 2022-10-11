@@ -1,5 +1,20 @@
 # Dokumentasi Aplikasi Sibatri
 
-![image](https://user-images.githubusercontent.com/74525957/194689809-7f8d19e7-09d3-474b-b32a-bb632da634ab.png)
-| _`Main Dashboard` Halaman Utama Aplikasi Sibatri Saat Pertama Dibuka
+![image](https://user-images.githubusercontent.com/74525957/194998459-b9a3bb52-e7ef-496a-8254-dd19905515ed.png)
+| _`GAMBAR 1. Main Dashboard` Halaman Utama Aplikasi Sibatri Saat Pertama Dibuka_
 
+Sibatri merupakan sistem aplikasi perangkat lunak yang berfungsi untuk meningkatkan efektifitas dan efisiensi dalam proses survei batimetri. Kata Sibatri merupakan singkatan untuk menyederhanakan kata sistem survei batimetri. Kelebihan dari perangkat lunak aplikasi ini adalah proses survei batimetri dapat dilakukan dengan lebih mudah di mana proses akuisisi data dapat dilakukan bersamaan dengan proses pengolahan data dalam menghasilkan peta batimetri secara _real-time_. Secara keseluruhan, aplikasi ini memiliki tiga fitur utama, antara lain: fitur akuisisi data, fitur validasi data, dan fitur _display_ peta batimetri yang terbagi menjadi tiga halaman dashboard.
+
+## 1. Halaman Utama (_Main Dashboard_)
+
+![image](https://user-images.githubusercontent.com/74525957/195000017-0d5b8810-f507-44d7-855f-0df5ec37be13.png)
+| _`GAMBAR 2. Halaman Utama`Aplikasi Sibatri Saat Sedang Melakukan Proses Akuisisi Data._
+
+Halaman utama dari aplikasi sibatri merupakan _dashboard_ yang difokuskan untuk proses survei batimetri secara _real-time_. Fitur-fitur pada halaman ini di antaranya adalah fitur perekaman data (_data logging_), _display_ data logging, _display_ peta batimetri secara _real-time_, dan _display_ jalur survei batimetri menggunakan _tiles_ berbasis Google Maps.
+
+### Perekaman Data
+
+Pada proses perekaman data akuisisi, terdapat beberapa pengaturan/konfigurasi masukan umpan data yang sangat penting untuk diperhatikan dan dipenuhi. Konfigurasi data yang dapat diterima oleh aplikasi sibatri sangat spesifik sehingga jika pengaturan umpan data yang diterima oleh aplikasi ini tidak sesuai maka aplikasi tidak mampu menerima dan mengolah data untuk dapat direkam dan disimpan. Di antara beberapa konfigurasi data tersebut, antara lain:
+
+ #### 1. Umpan Data Merupakan Data Serial Yang Tersusun Atas Enam Variabel
+Data serial yang diumpankan pada aplikasi sibatri merupakan data serial yang tersusun atas enam variabel. Variabel-variabel ini merupakan variabel yang nantinya dapat digunakan dalam fitur lain yang mencakup proses survei batimetri, seperti pengolahan data untuk menghasilkan peta batimetri ataupun pengolahan data dalam menampilkan jalur survei batimetri.
